@@ -171,3 +171,15 @@ Diminuindo o código acima, uma vez que a nossa condição sempre retorna um _tr
 
   console.log(masculino);
 ```
+
+## Condição ternária
+
+O conceito se aplica quando temos, simplesmente, um _if_ e, logo depois, um _else_; ou seja, quando só temos duas verificações dentro do _if_: se ele está validando ou não uma condição.
+
+```Javascript
+  var sexo = "M";
+
+  var retorno = sexo === "M" ? "Masculino" : "Feminino";
+
+  console.log(retorno);
+```
