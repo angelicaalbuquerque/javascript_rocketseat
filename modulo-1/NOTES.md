@@ -225,3 +225,37 @@ Por exemplo, você consegue adivinhar quantas vezes o código abaixo será execu
         j /= 5;
       }
 ```
+
+## Intervalo e timeout
+
+### setInterval()
+
+Um intervalo, dentro do JS, é alguma função que executa várias vezes dentro de um intervalo.
+
+Defino um intervalo com _setInterval()_. Dentro dos parênteses passo a função e o valor do intervalo que quero executá-la.
+
+Por exemplo, exibo algo a cada 1s:
+
+```Javascript
+  function exibeAlgo() {
+    console.log('Hello, World!');
+  }
+
+  setInterval(exibeAlgo, 1000);
+```
+
+Atenção: se eu abrisse e fechasse parênteses em _exibeAlgo_ dentro do _setInterval_, estaria executando a função e não faria a referência da função. Quando, então, quero passar a função como parâmentro para alguma coisa, eu não utilizo parênteses.
+
+### setTimeOut()
+
+Em vez de executar várias vezes o script, ele vai executar apenas uma vez, porém, aplicará um delay (tempo de espera) de x segundos antes de executar essa função.
+
+Se eu quero que o script execute algo 5s depois:
+
+```Javascript
+  function exibeAlgo() {
+    console.log('Hello, World!');
+  }
+
+  setTimeout(exibeAlgo, 5000);
+```
