@@ -116,5 +116,58 @@ Verificar a igualdade de valores de uma mesma variável múltiplas vezes.
       }
       var resultado = retornaSexo("F");
       console.log(resultado);
+```
 
+### Operadores Lógicos
+
+_and_
+
+```Javascript
+ var sexo = 'M', idade = 23;
+   if ( sexo === 'M' && idade >= 18) {
+    console.log('OK');
+   }
+```
+
+_or_
+
+```Javascript
+ var sexo = 'M', idade = 10;
+   if ( sexo === 'M' || idade >= 18) {
+    console.log('OK');
+   }
+```
+
+_not_
+
+```Javascript
+  if (sexo !== "F") {
+    console.log("OK");
+  }
+```
+
+_Armazenando o valor da condição em uma variável:_
+
+```Javascript
+  var sexo = "M";
+
+  var masculino;
+
+      if (sexo === "M") {
+        masculino = true;
+      } else {
+        masculino = false;
+      }
+
+  console.log(masculino);
+```
+
+Diminuindo o código acima, uma vez que a nossa condição sempre retorna um _true_ e um _false_ e eu estou, nesse caso, fazendo apenas uma condição:
+
+```Javascript
+  var sexo = "M";
+
+  var masculino = (sexo === "M");
+
+  console.log(masculino);
 ```
