@@ -183,3 +183,45 @@ O conceito se aplica quando temos, simplesmente, um _if_ e, logo depois, um _els
 
   console.log(retorno);
 ```
+
+## Estruturas de repetição
+
+### for
+
+No _for_, cria-se um intervalo. Por exemplo, intervalo do número 0 até o número 100:
+
+Defino o valor inicial da variável como 0, aplico a condição (enquanto o i for menor que 100) e faço a soma da unidade a mais na variável inicial.
+
+```Javascript
+   for (var i = 0; i <= 100; i++) {
+      console.log(i);
+  }
+```
+
+### while
+
+Para criar um _while_, fazemos deste modo: iniciamos a variável contadora, escrevemos _while_ e passamos nossa condição dentro de parênteses. Já dentro do corpo da função, aplicamos o incremento.
+
+```Javascript
+      var j = 0;
+      while (j <= 100) {
+        console.log(j);
+
+        j++;
+      }
+```
+
+### Quando devo utilizar _for_ e _while_?
+
+É recomendável utilizar _for_ sempre que souber o tamanho do intervalo. Já o _while_ é utilizado, normalmente, quando não sabemos quantas vezes o fluxo será utilizado.
+
+Por exemplo, você consegue adivinhar quantas vezes o código abaixo será executado para que _j_, dividido por 5, chegue a um número menor que 50? Acredito que não. Por isso, é recomendado o _while_.
+
+```Javascript
+      var j = 219345872;
+      while (j > 50) {
+        console.log(j);
+
+        j /= 5;
+      }
+```
