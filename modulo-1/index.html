@@ -7,13 +7,31 @@
   </head>
   <body>
     <script>
-      function soma(numero1, numero2) {
-        var resultado = numero1 + numero2;
+      //IF...ELSE
+      // function retornaSexo(sexo) {
+      //   if (sexo === "F") {
+      //     return "Feminino";
+      //   } else if (sexo === "M") {
+      //     return "Masculino";
+      //   } else {
+      //     return "Outro";
+      //   }
+      // }
+      // var resultado = retornaSexo("F");
+      // console.log(resultado);
 
-        return resultado;
+      //SWITCH
+      function retornaSexo(sexo) {
+        switch (sexo) {
+          case "M":
+            return "Masculino";
+          case "F":
+            return "Feminino";
+          default:
+            return "Outro";
+        }
       }
-
-      var resultado = soma(5, 10);
+      var resultado = retornaSexo("F");
       console.log(resultado);
     </script>
   </body>

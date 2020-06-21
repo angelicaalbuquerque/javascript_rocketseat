@@ -49,3 +49,72 @@ Para criarmos uma função, precisamos definir a palavra-chave <strong>function<
 o <strong>var resultado</strong> foi definido em dois locais porque se eu apenas mostrar <strong>console.log(resultado)</strong>, mesmo chamando <strong>soma</strong>, a mensagem de retorno será "<strong>resultado não foi definido</strong>".
 
 Quando definimos uma variável utilizando o <strong>var</strong>, ela é visível somente dentro da função <strong>soma</strong> e não fora dela; então podemos definir o nome da mesma variável fora da função para termos o resultado.
+
+## Condicionais
+
+### if
+
+```Javascript
+      function retornaSexo(sexo) {
+        //M, F; Masculino, Feminino
+
+        if (sexo === "F") {
+          return "Feminino";
+        } else {
+          return "Masculino";
+        }
+      }
+
+      var resultado = retornaSexo("F");
+      console.log(resultado);
+```
+
+Vale ressaltar que "===" verifica se o tipo E o valor das comparações são exatamente iguais.
+
+Abaixo, na primeira vez, comparo se o valor 1 é igual a 1, independente do primeiro ter sido escrito como number e o segundo escrito como string. Como o valor 1 é igual a 1, então é true.
+
+Já na segunda condição, o number pode ter o mesmo valor que a string, porém os tipos são diferentes e por isso é falso.
+
+```Javascript
+ 1 == "1"; //true
+ 1 === "1"; //false
+```
+
+### else if
+
+```Javascript
+      function retornaSexo(sexo) {
+        //M, F; Masculino, Feminino
+
+        if (sexo === "F") {
+          return "Feminino";
+        } else if (sexo === "M") {
+          return "Masculino";
+        } else {
+          return "Outro";
+        }
+      }
+
+      var resultado = retornaSexo("F");
+      console.log(resultado);
+```
+
+### switch case
+
+Verificar a igualdade de valores de uma mesma variável múltiplas vezes.
+
+```Javascript
+      function retornaSexo(sexo) {
+        switch (sexo) {
+          case 'M':
+            return 'Masculino';
+          case 'F':
+            return 'Feminino';
+          default:
+            return 'Outro';
+        }
+      }
+      var resultado = retornaSexo("F");
+      console.log(resultado);
+
+```
