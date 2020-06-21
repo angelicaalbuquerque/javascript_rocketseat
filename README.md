@@ -36,10 +36,10 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 ### 📚 Grade do curso
 
 <details>
-  <summary>Módulo 1: Introdução JavaScript</summary>
+  <summary>Módulo 1: Introdução JavaScript ✔️</summary>
 
-- Introdução ✔️
-- Configurando ambiente ✔️
+- Introdução
+- Configurando ambiente
 - Variáveis e dados
 - Operações matemáticas
 - Funções
@@ -52,7 +52,19 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 </details>
 
 <details>
-  <summary>Módulo 2: Manipulando a DOM</summary>
+  <summary>Módulo 2: Manipulando a DOM 🚧</summary>
+
+- Estrutura do app
+- Iniciando aplicação
+- Renderizando Todos
+- Criando Todos
+- Excluindo Todos
+- Salvando no storage
+- Desafio
+</details>
+
+<details>
+  <summary>Módulo 3: App de Todos 🚧</summary>
 
 - Estrutura do app
 - Iniciando aplicação
@@ -63,18 +75,7 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 </details>
 
 <details>
-  <summary>Módulo 3: App de Todos</summary>
-
-- Estrutura do app
-- Iniciando aplicação
-- Renderizando Todos
-- Criando Todos
-- Excluindo Todos
-- Salvando no storage
-</details>
-
-<details>
-  <summary>Módulo 4: JS assíncrono</summary>
+  <summary>Módulo 4: JS assíncrono 🚧</summary>
 
 - Requisições AJAX
 - Promises
@@ -85,16 +86,17 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 ## 📬 Entre em contato!
 
 <div align="left">
-<a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
-  <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
-</a>&nbsp;&nbsp;&nbsp;
-<a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
-  <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">&nbsp;&nbsp;&nbsp;&nbsp;
-</a>
+  <a href="https://www.linkedin.com/in/angelica-albuquerque/" target="_blank" >
+    <img alt="Linkedin - Angélica Albuquerque" src="https://img.shields.io/badge/Linkedin--%23F8952D?style=social&logo=linkedin">
+  </a>&nbsp;&nbsp;&nbsp;
 
-<a href="https://twitter.com/angelica_oa/" target="_blank">
-  <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
-</a>
+  <a href="mailto:angelica.o.albuquerque@gmail.com" target="_blank" >
+    <img alt="Email - Angélica Albuquerque" src="https://img.shields.io/badge/Email--%23F8952D?style=social&logo=gmail">
+  </a>&nbsp;&nbsp;&nbsp;
+
+  <a href="https://twitter.com/angelica_oa/" target="_blank">
+    <img alt="Twitter - Angélica Albuquerque" src="https://img.shields.io/twitter/url?label=Twitter&style=social&url=https%3A%2F%2Ftwitter.com%2Fangelica_oa">
+  </a>
 </div>
 
 ---
