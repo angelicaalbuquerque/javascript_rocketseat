@@ -17,15 +17,35 @@ Podemos incrementar um valor do seguinte modo, evitando a repetição da variáv
 ```Javascript
   var x = 10,
       x += 3; //x = x + 3
+
   console.log(x) // 13
 ```
 
 Eu posso, inclusive, utilizar outras variáveis, por exemplo:
 
 ```Javascript
-      var x = 10,
-          y = 5;
+  var x = 10,
+      y = 5;
 
       x *= y;
       console.log(x); //50
 ```
+
+## Funções
+
+Para criarmos uma função, precisamos definir a palavra-chave <strong>function</strong>, definir o nome da função e adicionar parênteses (e, dentro dos mesmos, definir os parâmetros que vamos receber, se for o caso) e abrir/fechar chaves para inserir o corpo da função e o que ela vai executar quando for chamada.
+
+```Javascript
+ function soma(numero1, numero2) {
+   var resultado = numero1 + numero2
+
+   return resultado;
+ }
+
+  var resultado = soma(5, 10);
+   console.log(resultado);
+```
+
+o <strong>var resultado</strong> foi definido em dois locais porque se eu apenas mostrar <strong>console.log(resultado)</strong>, mesmo chamando <strong>soma</strong>, a mensagem de retorno será "<strong>resultado não foi definido</strong>".
+
+Quando definimos uma variável utilizando o <strong>var</strong>, ela é visível somente dentro da função <strong>soma</strong> e não fora dela; então podemos definir o nome da mesma variável fora da função para termos o resultado.
