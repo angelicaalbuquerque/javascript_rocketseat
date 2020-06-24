@@ -54,12 +54,10 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 <details>
   <summary>Módulo 2: Manipulando a DOM 🚧</summary>
 
-- Estrutura do app
-- Iniciando aplicação
-- Renderizando Todos
-- Criando Todos
-- Excluindo Todos
-- Salvando no storage
+- Eventos inline
+- Trabalhando com a DOM
+- Lidando com elementos
+- Alterando estilos
 - Desafio
 </details>
 
