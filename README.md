@@ -2,7 +2,7 @@
     <img src=".github\javascript.png" width="400"/>
 </div>
 
-<h2 align="center">Curso JavaScript | Rocketseat</h2>
+<h2 align="center">Curso JavaScript | <img align="center" alt="badge rocketseat" src=".github\rocket.svg"></h2>
 <h3 align="center">🚧 Em andamento 🚧</h3>
 
 <p align="center">
@@ -54,7 +54,7 @@ Este é um curso prático, em que é construída uma aplicação web com JavaScr
 <details>
   <summary>Módulo 2: Manipulando a DOM 🚧</summary>
 
-- Eventos inline
+- Eventos inline ✔️
 - Trabalhando com a DOM
 - Lidando com elementos
 - Alterando estilos
